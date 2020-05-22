@@ -1,0 +1,22 @@
+{
+    "name": "azaelcodes/niu-framework",
+    "description": "A simple PHP Framework inspired by SlimPHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Azael",
+            "email": "azael.codes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Niu\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "ext-curl": "*"
+    }
+}
